@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        header{
+            height: 60px;
+            background-color: rgb(10, 10, 87);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 20px;
+            color: #fff;
+            
+        }
+        .logo{
+           margin-left: 10px;
+           font-size: 40px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+           margin-right: 20px;
+            
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 20px; 
+            color: #fff;
+            transition: all 0.3s;
+            position: relative;
+            font-size: 25px;
+        }
+        ul li a:hover{
+             box-sizing: border-box; 
+            border-radius: 30px;
+            background-color: rgb(14, 67, 128)
+            /* color(srgb red green blue); */
+        }
+        @media (max-width:940px){
+              
+        }
+        ul li ul{
+            display: inline-block;
+            margin-top: 20px;P
+        }
+        ul li ul li a{
+            display: flex;
+            
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            @travel
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a><a href="#">
+            <!-- <ul>
+                <li><a href="#">Kajal</a></li>
+                <li><a href="#">Kajal</a></li>
+                <li><a href="#">Kajal</a></li>
+                <li><a href="#">Kajal</a></li>
+            </ul>
+             -->
+            </li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </header>
+</body>
+</html>
